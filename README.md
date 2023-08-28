@@ -9,13 +9,12 @@ This repository have the notes that I have made while doing the course of GAI wi
 
 # ROUGE VS BLEU 
 
----
 
 **ROUGE** (Recall-Oriented Understudy for Gisting Evaluation) and BLEU (Bilingual Evaluation Understudy) are both metrics used to evaluate the quality of machine-generated text, such as summaries or translations, by comparing them to reference (human-written) text. These metrics provide a quantitative measure of how well the generated text captures the content and style of the reference text.
 
 ROUGE is a family of metrics that focus on recall, which measures the ability of the generated text to cover the content present in the reference text. It calculates the overlap of n-grams (sequences of words) between the generated and reference text. The most common variants of ROUGE are ROUGE-N (n-gram overlap), ROUGE-L (Longest Common Subsequence), and ROUGE-W (weighted ROUGE).
 
-BLEU, on the other hand, emphasizes precision and recall. It compares n-grams in the generated text to those in the reference text, aiming to measure how well the generated text matches the reference. BLEU computes precision for different n-gram orders (usually up to 4-grams) and combines them using a geometric mean. Additionally, BLEU includes a brevity penalty to account for shorter translations.
+**BLEU**, on the other hand, emphasizes precision and recall. It compares n-grams in the generated text to those in the reference text, aiming to measure how well the generated text matches the reference. BLEU computes precision for different n-gram orders (usually up to 4-grams) and combines them using a geometric mean. Additionally, BLEU includes a brevity penalty to account for shorter translations.
 
 Both ROUGE and BLEU have been widely used in natural language processing tasks:
 
